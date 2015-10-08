@@ -40,7 +40,7 @@ var ANCESTRY_FILE = "[\n  " + [
         '{"name": "Jacobus Bernardus van Brussel", "sex": "m", "born": 1736, "died": 1809, "father": "Jan van Brussel", "mother": "Elisabeth Haverbeke"}'
     ].join(",\n  ") + "\n]";
 
-// This makes sure the data is exported in node.js —
+// This makes sure the data is exported in node.js â€”
 // `require(./path/to/ancestry.js)` will get you the array.
 if (typeof module != "undefined" && module.exports)
     module.exports = ANCESTRY_FILE;

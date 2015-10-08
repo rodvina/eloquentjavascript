@@ -30,4 +30,4 @@ console.log("high-order filter");
 console.log(ancestry.filter(function(person) {
     return person.born > 1800 && person.born < 1850;
 }));
-// ? [{name: "Philibert Haverbeke", …}, …]
+// ? [{name: "Philibert Haverbeke", â€¦}, â€¦]

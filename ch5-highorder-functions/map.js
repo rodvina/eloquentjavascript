@@ -34,4 +34,4 @@ console.log(ancestry.filter(function(person) {
 }).map(function(person) {
     return person.name;
 }));
-// ? [{name: "Philibert Haverbeke", …}, …]
+// ? [{name: "Philibert Haverbeke", â€¦}, â€¦]
