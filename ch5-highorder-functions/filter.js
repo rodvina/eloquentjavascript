@@ -26,7 +26,7 @@ console.log(filter(ancestry, function(person) {
     return person.born > 1800 && person.born < 1850;
 }));
 
-console.log("simpler filter");
+console.log("high-order filter");
 console.log(ancestry.filter(function(person) {
     return person.born > 1800 && person.born < 1850;
 }));
